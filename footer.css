@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    font-family: "Inria Sans", sans-serif;
+    font-style: italic;
+}
+
+.logo img {
+    width: 25em;
+    height: auto; 
+    float: left;
+    margin-bottom: 50px; /* Adjust margin-bottom to move the image upwards */
+    margin-top: -10px;
+}
+
+.footerlinks ul {
+    list-style-type: none; /* Remove default list bullet */
+    padding: 0; 
+    text-align: left;/* Remove default padding */
+}
+
+.footerlinks ul li {
+    display: block; /* Display list items horizontally */
+    margin-right: 10px; /* Add some spacing between list items */
+}
+
+.footerlinks ul li a {
+    color: #ffffff; /* Set link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.footerlinks ul li a:hover {
+    text-decoration: underline; /* Underline link on hover */
+}
+
