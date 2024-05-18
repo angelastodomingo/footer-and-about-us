@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  /* Upper navigation styles */
+  /* Navigation bar styles */
+}
+header .uppernav {
+  background-color: #D81B1B;
+  color: #fff;
+  padding: 10px 15px;
+}
+header .uppernav .container {
+  margin: auto;
+  max-width: 1500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .uppernav .container .logo img {
+  height: 40px;
+}
+header .uppernav #search-form {
+  height: 25px;
+  display: flex;
+}
+header .uppernav #search-form input {
+  float: left;
+  padding: 10px;
+}
+header .uppernav #search-form button {
+  float: left;
+  background-color: #111;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+header .uppernav #search-form button img {
+  width: 15px;
+}
+header .uppernav #rightnav {
+  display: flex;
+  gap: 15px;
+  width: 100px;
+}
+header .uppernav #rightnav #Cart {
+  background-color: #111;
+  color: #fff;
+  padding: 0px 18px;
+}
+header .uppernav #rightnav #sidebar-toggle {
+  font-size: x-large;
+}
+header nav {
+  background-color: rgb(10, 10, 10);
+  display: flex;
+  gap: 1px;
+}
+header nav a {
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+header nav a:hover {
+  background-color: #333;
+}
+header nav .current-page {
+  background-color: #9E0909;
+}
+header nav .current-page:hover {
+  background-color: #ba2727;
+}
+
+footer {
+  background-color: rgb(0, 0, 14);
+}
+
+main {
+  margin: auto;
+  max-width: 1500px;
+  display: flex;
+  flex-direction: column;
+}
+main #hero {
+  display: flex;
+  flex-wrap: wrap;
+}
+main #hero article {
+  width: 150px;
+  background-color: #f56;
+  float: right;
+  margin-top: 20%;
+}
+main #hero img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}/*# sourceMappingURL=home.css.map */

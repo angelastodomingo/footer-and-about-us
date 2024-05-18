@@ -1,0 +1,22 @@
+@import '_general';
+
+main{
+    margin: auto;
+    max-width: 1500px;
+    display: flex;
+    flex-direction: column;
+    #hero {
+        display: flex;
+        flex-wrap: wrap; // Make the items wrap when they exceed the width
+
+        article {
+            width: 150px; // Set a fixed width for the articles      
+            background-color: #f56;
+            float: right;
+            margin-top: 20%;
+        }
+        img{
+            object-fit: contain;
+        }
+    }
+}

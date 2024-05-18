@@ -1,0 +1,204 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  /* Upper navigation styles */
+  /* Navigation bar styles */
+}
+header .uppernav {
+  background-color: #D81B1B;
+  color: #fff;
+  padding: 10px 15px;
+}
+header .uppernav .container {
+  margin: auto;
+  max-width: 1100px;
+  gap: 10px;
+}
+header .uppernav .container .logo {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: auto;
+}
+header .uppernav .container .logo img {
+  height: 40px;
+}
+header .uppernav .container #search-form {
+  margin: auto;
+  max-width: 300px;
+  min-width: 100px;
+  height: 25px;
+  display: flex;
+}
+header .uppernav .container #search-form input {
+  min-width: 100px;
+  flex: 1 1 auto;
+  float: left;
+  padding: 10px;
+}
+header .uppernav .container #search-form button {
+  flex: 1 1 auto;
+  float: left;
+  background-color: #111;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+header .uppernav .container #search-form button img {
+  width: 15px;
+}
+header .uppernav .container #rightnav {
+  flex: 0 1 auto;
+  display: flex;
+  gap: 15px;
+  width: 100px;
+  margin-left: auto;
+}
+header .uppernav .container #rightnav #Cart {
+  background-color: #111;
+  color: #fff;
+  padding: 0px 18px;
+}
+header .uppernav .container #rightnav #sidebar-toggle {
+  font-size: x-large;
+}
+header nav {
+  background-color: rgb(10, 10, 10);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+}
+header nav a {
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+header nav a:hover {
+  background-color: #333;
+}
+header nav .current-page {
+  background-color: #9E0909;
+}
+header nav .current-page:hover {
+  background-color: #ba2727;
+}
+
+button {
+  background-color: red;
+  color: white;
+  padding: 7px;
+  font-size: small;
+}
+
+footer {
+  background-color: rgb(0, 0, 14);
+}
+
+@media (1000px < width) {
+  nav {
+    justify-content: center;
+    padding-right: 600px;
+  }
+}
+main {
+  margin: auto;
+  max-width: 1000px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+main #hero {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px 0 50px 0;
+  gap: 50px;
+}
+main #hero article {
+  align-self: center;
+  width: 400px;
+}
+main #hero article:first-child {
+  flex: 1 0 200px;
+  width: 50%;
+  padding: 10px;
+}
+main #hero article:last-child {
+  width: 50%;
+}
+main #hero article #hero-title {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-image: linear-gradient(45deg, red, purple, blue);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3em;
+}
+main #hero article img {
+  max-width: 100%;
+  height: auto;
+}
+main #welcome-section {
+  padding: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+main #welcome-section #welcome2srgt {
+  font-size: large;
+}
+main #welcome-section #onlinestore {
+  margin: 5px;
+  font-size: xx-large;
+}
+main #welcome-section #magic3words {
+  font-weight: normal;
+  font-size: small;
+}
+main #four-services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 20px;
+}
+main #four-services article {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 150px;
+  color: white;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 20px;
+}
+main #four-services article:nth-child(1) {
+  background-image: url(../../images/dp.png);
+}
+main #four-services article:nth-child(2) {
+  background-image: url(../../images/ep.png);
+}
+main #four-services article:nth-child(3) {
+  background-image: url(../../images/te.png);
+}
+main #four-services article:nth-child(4) {
+  background-image: url(../../images/sp.png);
+}
+main #featured-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 20px;
+}
+main #featured-products article {
+  padding: 10px;
+  border: 1px solid black;
+}
+main #featured-products article #priiice {
+  display: flex;
+  justify-content: space-between;
+  height: 35px;
+}/*# sourceMappingURL=home.css.map */
