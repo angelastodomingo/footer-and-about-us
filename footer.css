@@ -3,46 +3,100 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
-}
-
-
-.footer {
+  }
+  
+  .footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px; 
     width: 100%;
     position: fixed;
     bottom: 0;
     font-family: "Inria Sans", sans-serif;
     font-style: italic;
-}
-
-.logo img {
-    width: 25em;
-    height: auto; 
-    float: left;
-    margin-bottom: 50px; /* Adjust margin-bottom to move the image upwards */
-    margin-top: -10px;
-}
-
-.footerlinks ul {
-    list-style-type: none; /* Remove default list bullet */
-    padding: 0; 
-    text-align: left;/* Remove default padding */
-}
-
-.footerlinks ul li {
-    display: block; /* Display list items horizontally */
-    margin-right: 10px; /* Add some spacing between list items */
-}
-
-.footerlinks ul li a {
-    color: #ffffff; /* Set link color */
-    text-decoration: none; /* Remove underline */
-}
-
-.footerlinks ul li a:hover {
-    text-decoration: underline; /* Underline link on hover */
-}
-
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    gap: 300px; 
+    align-items: flex-start; 
+  }
+  
+  .logoandlink {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    max-width: 50%; 
+  }
+  
+  .logo img {
+    width: 20em; 
+    height: auto;
+    margin-bottom: 10px; 
+  }
+  
+  .logoline {
+    text-align: left;
+    max-width: 360px;
+  }
+  
+  .footerlinks, .informationlinks, .contactinfo {
+    text-align: left;
+  }
+  
+  .footerlinks h2, .informationlinks h2, .contactinfo h2 {
+    margin-bottom: 10px;
+    text-decoration: underline;
+  }
+  
+  .footerlinks ul, .informationlinks ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footerlinks ul li, .informationlinks ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footerlinks ul li a, .informationlinks ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footerlinks ul li a:hover, .informationlinks ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footerlinks p {
+    text-align: left;
+  }
+  
+  .contactinfo p {
+    margin: 0; 
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px; 
+    margin-top: 10px; 
+  }
+  
+  .social-icons a img {
+    width: 24px; 
+    height: 24px;
+  }
+  
+  .whiteline {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    margin-top: 20px;
+  
+  }
+  
+  .rightsreserved {
+    align-items: center;
+    font-style: italic;
+  }
